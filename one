@@ -1,0 +1,40 @@
+Git - Distributed Version Control System - that enables to maintain and track changes in a source file & also sharing to others
+GitHub - Its a website that allows you to publish git repository online.
+Git stores locally - unless you push it to GitHub /dropbox etc.
+Central Version Control System and Distributed VCS:
+
+- Central VCS :
+- Central VCS has one central rep from where you check files out and check back in.
+- Any problem to central rep then only the particular files u checked in will be there.If no back up -total loss
+- If servers offline or no network con then u cannot access.
+- Distributed VCS :
+- Distributed VCS is where each user clones the remote repository - makes changes and pushes in.
+- In Distributed VCS ,  each developer has the copy of the central rep.
+
+Repositories:  Remote repository and Local repository .
+
+- Remote Repository : those located in remote server.
+- Local Repository : Repository in your local machine.Local rep can be made from scratch or else cloned from a remote rep.
+
+Commits :
+
+- Records changes made to the file.
+- Lets others know when and what changes are made to the source file.
+
+Working Tree and Index :
+
+- The files with which you currently work - working tree.
+- All changes u make in work tree are not committed. There comes a staging area in between - index- which controls what all files should be taken to commit.
+- The files not added to index cannot be committed.
+
+Git files:
+
+- There are two types of files in working directory which are untracked and tracked.'
+- Untracked files are those which are not staged and are not observed by git unless you stage them using add command .
+- Tracked files may fall under unmodified , modified and stage.
+- All files are tracked , unmodified as soon as you clone.then modify -> stage -> commit and the cycle repeats.
+
+Undoing things  :
+
+- git commit --amend : to change the previous commit as the new commit.
+- git reset HEAD : to unstage staged files .
