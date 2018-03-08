@@ -38,4 +38,4 @@ Undoing things  :
 
 - git commit --amend : to change the previous commit as the new commit.
 - git reset HEAD : to unstage staged files .
- I read them completely.
+ I read them completely.Verified
