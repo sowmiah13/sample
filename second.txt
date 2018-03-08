@@ -1,0 +1,4 @@
+Second
+Second file.
+Change in master
+Stash
