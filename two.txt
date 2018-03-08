@@ -1,3 +1,0 @@
-This is the second file.hi.hello
-Pull request is added.
-Before pulling Changing in local
