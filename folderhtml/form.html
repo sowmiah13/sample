@@ -1,0 +1,40 @@
+<html>
+<head> Registration form</head>
+<link rel='stylesheet' href='form.css'>
+<form action="/submit" method="post">
+  <fieldset>
+  <legend>Register</legend>
+  <label for="username">First Name</label>
+  <input type="text" id="username"><br>
+  <label for="secname">Second Name</label>
+  <input type="text" id="secname"><br>
+<label>  D.O.B</label><input type="date" id="dob"> <br>
+<label>Age </label><input type="number" id="age" min="18" max="99" placeholder="18"><br>
+<label>Gender</label>
+  <input type="radio" name="gender"checked value="female">Female
+  <input type="radio" name="gender" value="male">Male<br>
+  <label>Address</label>
+  <textarea></textarea>
+  <label>Country</label>
+  <select name="country">
+  <option value="India" selected>India</option>
+  <option value="Saturday">America</option>
+  <option value="Sunday">Australia</option>
+</select>
+<label>Upload Photo</label>
+<input type="file" name="file">
+
+<label>Education</label>
+<input type="checkbox">S.S.L.C
+<input type="checkbox">H.S.C
+<input type="checkbox">Diploma
+<input type="checkbox">B.E
+<input type="checkbox">M.E<br>
+<input type="checkbox">Phd <br>
+
+<label>Phone number</label><input type="text" maxlength="10"><br>
+  <label>Email id</label><input type="email" id="mail" required placeholder="name@gmail.com"><br>
+  <label>Password</label><input type="password"/><br>
+<button value="submit">Submit</button>
+</fieldset>
+</html>

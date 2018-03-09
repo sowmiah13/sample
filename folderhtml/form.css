@@ -1,0 +1,37 @@
+html{
+  font-size: 20px;
+  }
+  fieldset{
+     background:linear-gradient(grey 40% ,white);
+  }
+  legend{
+    font-style: italic;
+    background: grey;
+    border: 1px solid black;
+  }
+  label{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+}
+button{
+  background:linear-gradient(black ,grey);
+  font-size: 15px;
+  text-align:center;
+  border-radius: 5px;
+  color: white;
+  font-style: italic;
+  margin-top: 10px;
+  font-family:monospace;
+}
+input{
+  border-radius: 5px;
+  height:30px
+  margin-bottom:50px;
+}
+select{
+  font-style:normal;
+  font-family:monospace;
+
+}
